@@ -35,7 +35,7 @@ public class ExtentReportExample {
 	@Test
 	public void f3() {
 
-		ExtentTest test = extent.createTest(" Login DashBoard Sucessfully");
+		ExtentTest test = extent.createTest(" Login DashBoard Sucessfully..");
 		test.log(Status.PASS, "DashBoard Screen");
 		test.pass("Dash Board Verified");
 
